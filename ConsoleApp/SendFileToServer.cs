@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Renci.SshNet;
 
 namespace ConsoleApp
@@ -8,13 +6,13 @@ namespace ConsoleApp
     public static class SendFileToServer
     {
         // Enter your host name or IP here
-        private static string host = @"158.69.52.119";
-
-        private static int port = 11022;
+        private static string host = Config.host;
+        // Enter your port here
+        private static int port = Config.port;
         // Enter your sftp username here
-        private static string username = @"erjan";
+        private static string username = Config.username;
         // Enter your sftp password here
-        private static readonly string password = @"6eYbUb4MuD";
+        private static readonly string password = Config.password;
         public static int Send(string fileName)
         {
             try
@@ -25,7 +23,7 @@ namespace ConsoleApp
                 {
 
                     sftp.Connect();
-                    sftp.ChangeDirectory("/docker/appdata/herbarium/uploads/raw");
+                    sftp.ChangeDirectory(Config.directoryToSave);
                     using (var uplfileStream = System.IO.File.OpenRead(fileName))
                     {
                         sftp.UploadFile(uplfileStream, fileName, true);

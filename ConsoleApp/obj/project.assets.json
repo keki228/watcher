@@ -3884,11 +3884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\watcher\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\watcher\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\ConsoleApp\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\watcher\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

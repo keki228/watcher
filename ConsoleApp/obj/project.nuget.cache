@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AX7d6lGQBAOI1rJwH+i1Ohq+BEyhTMThtLaj5OI8RAs9sB4uMWz4+SP+wnFidl5hNQhy4B2i5yZT169mSUrEw==",
+  "dgSpecHash": "xAABLqYKfr6NYGCOWs6yGcSXJmnBP6YfWUj635tYftdL5nAvAWN5dvJLInmmJRpSDLu2fG+iLw1Jzz3I0PsR5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\watcher\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
